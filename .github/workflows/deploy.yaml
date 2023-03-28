@@ -34,7 +34,7 @@ jobs:
         run: yarn run enhancedocs:build
       - name: Publish EnhanceDocs
         run: yarn run enhancedocs:push
-        environment:
+        env:
           ENHANCEDOCS_API_KEY: ${{ secrets.ENHANCEDOCS_API_KEY }}
       - name: Setup Pages
         uses: actions/configure-pages@v3
