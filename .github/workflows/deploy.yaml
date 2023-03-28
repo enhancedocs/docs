@@ -22,7 +22,6 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-      ENHANCEDOCS_API_KEY: ${{ secrets.ENHANCEDOCS_API_KEY }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -35,7 +34,7 @@ jobs:
         run: yarn run enhancedocs:build
       - name: Publish EnhanceDocs
         run: yarn run enhancedocs:push
-        env:
+        environment:
           ENHANCEDOCS_API_KEY: ${{ secrets.ENHANCEDOCS_API_KEY }}
       - name: Setup Pages
         uses: actions/configure-pages@v3
