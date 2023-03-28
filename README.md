@@ -1,6 +1,6 @@
 # EnhanceDocs Documentation
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator and powered by [EnhanceDocs](http://enhancedocs.com/) an AI-powered Search Engine.
 
 ### Installation
 
