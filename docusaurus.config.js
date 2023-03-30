@@ -44,6 +44,9 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/enhancedocs/docs/tree/main',
+          remarkPlugins: [
+            [require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }]
+          ]
         },
         blog: false,
         theme: {
