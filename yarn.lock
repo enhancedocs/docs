@@ -3634,10 +3634,10 @@ enhanced-resolve@^5.10.0:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
 
-enhancedocs-search@^0.0.30:
-  version "0.0.30"
-  resolved "https://registry.yarnpkg.com/enhancedocs-search/-/enhancedocs-search-0.0.30.tgz#8cb88994a2036bb9f45817981331bc40166daa81"
-  integrity sha512-XpDTL+q4Hrsw87zmRJBYIuwJTQPgFPN2US8jSoCKX5PNNbRM4d/NFn5yj6nZrXeG6BJFmudbC7rXWinVCpoo/A==
+enhancedocs-search@^0.0.31:
+  version "0.0.31"
+  resolved "https://registry.yarnpkg.com/enhancedocs-search/-/enhancedocs-search-0.0.31.tgz#8b6ec1992ca6f9665953363f9307bb3b7f096376"
+  integrity sha512-P4uR6kihv6HdRVRs0jvMEKKDqF0CUyaowW6d2RMdqIjFoY/6MZljt3W0MBnBErijK5Ntn+R3XJS/BuMTCqFs0w==
   dependencies:
     react-markdown "^8.0.6"
     react-modal "^3.16.1"
