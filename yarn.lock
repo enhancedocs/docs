@@ -3643,12 +3643,11 @@ enhanced-resolve@^5.10.0:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
 
-enhancedocs-search@^0.0.27:
-  version "0.0.27"
-  resolved "https://registry.yarnpkg.com/enhancedocs-search/-/enhancedocs-search-0.0.27.tgz#b8b0554179de668077e9ca50d59bdcf3e6e7f47e"
-  integrity sha512-jBt4D5LlUpBI+zAtZaZsTdXYQxedfdILWK2jBKs3/hH23UBSj3Rxv/dKkqtdri3Pd34l8uRsEholqbsSAYLM4Q==
+enhancedocs-search@^0.0.36:
+  version "0.0.36"
+  resolved "https://registry.yarnpkg.com/enhancedocs-search/-/enhancedocs-search-0.0.36.tgz#62b04722cc637af99053e18c82679b22c5fd154b"
+  integrity sha512-vQeAx7YZUU2Yz9re7x7du7tjKuhO7X7xQKO9LJCyzuUztwmmDEmba7y9AcVCDMOgnbnue92TTjKaWOhiuLVp1Q==
   dependencies:
-    lodash.debounce "^4.0.8"
     react-markdown "^8.0.6"
     react-modal "^3.16.1"
 
