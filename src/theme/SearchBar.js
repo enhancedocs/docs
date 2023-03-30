@@ -11,7 +11,6 @@ export default function SearchBarWrapper(props) {
   return (
     <EnhancedSearch
       accessToken="pk_760ed6e637a6ab987495e43916e7fc2799de0c074e2c1d86"
-      placeholder="Search"
       {...props}
     />
   );
