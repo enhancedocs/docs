@@ -2804,11 +2804,6 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001449, caniuse-lite@^1.0.30001464:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001472.tgz#3f484885f2a2986c019dc416e65d9d62798cdd64"
   integrity sha512-xWC/0+hHHQgj3/vrKYY0AAzeIUgr7L9wlELIcAvZdDUHlhL/kNxMdnQLOSOQfP8R51ZzPhmHdyMkI0MMpmxCfg==
 
-cargo-cp-artifact@^0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/cargo-cp-artifact/-/cargo-cp-artifact-0.1.8.tgz#353814f49f6aa76601a4bcb3ea5f3071180b90de"
-  integrity sha512-3j4DaoTrsCD1MRkTF2Soacii0Nx7UHCce0EwUf4fHnggwiE4fbmF2AbnfzayR36DF8KGadfh7M/Yfy625kgPlA==
-
 ccount@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/ccount/-/ccount-1.1.0.tgz#246687debb6014735131be8abab2d93898f8d043"
@@ -3650,13 +3645,6 @@ enhancedocs-search@^0.0.36:
   dependencies:
     react-markdown "^8.0.6"
     react-modal "^3.16.1"
-
-enhancedocs@^0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/enhancedocs/-/enhancedocs-0.2.5.tgz#8fe338dad0a95aad6f1ad159453444b4cc60b766"
-  integrity sha512-hMtgwAbEQc+v7p2ARyroMeCmirC8M+43pBk9UuCvKxZvlnR7xpRHyVNCuGiZLFH8C1Wgt1K4YH/XmFwCo1X1BA==
-  dependencies:
-    cargo-cp-artifact "^0.1.8"
 
 entities@^2.0.0:
   version "2.2.0"
