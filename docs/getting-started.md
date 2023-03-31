@@ -25,33 +25,6 @@ Go you profile name/icon on the top left conner, then click Organization setting
 
 These keys will allow you to authenticate API requests. Learn more about [API Keys security](./security/api-keys.md)
 
-### 4. Install EnhanceDocs CLI
-In order to generate responses we need to have access to your docs!
-
-There's a couple ways we can get that, either push the information to us or we crawl it.
-
-We highly encourage usage of push that way you have control over when versioning and when accurately keep the AI trained with your new documentation when published, therefore we will show that example here.
-
-#### Install dev dependencies
-
-enhancedocs is our cli built on top of [Rust](https://www.rust-lang.org/) to transform large data documentations extremely fast!
-
-```bash npm2yarn
-npm install enhancedocs --save-dev
-```
-
-####  Add build and push scripts to your `package.json`.
-
-```json
-{
-  "scripts": {
-    // ...
-    "enhancedocs:build": "enhancedocs build docs",
-    "enhancedocs:push": "enhancedocs push"
-  }
-}
-```
-
 ### 4. Install EnhanceDocs Search
 EnhanceDocs Search is our React Search component ready to use.
 
@@ -86,16 +59,43 @@ export default function SearchBarWrapper(props) {
 ```
 
 
-### 6. Configure your CD pipelines to build and push
+### 5. Configure your CD pipelines to build and push
 
-Store securely as a secret on your pipeline env variables ENHANCEDOCS_API_KEY=sk_123456...
+#### Option A: Using EnhanceDoc Github Action
 
-Run in two steps in your pipeline.
+```yaml
+steps:
+  - name: Checkout Repository
+    uses: actions/checkout@v3
+
+  - name: Install EnhanceDocs CLI
+    uses: enhancedocs/enhancedocs-github-action@0.0.2
+    with:
+      # More about EnhanceDocs Secret API Key: https://docs.enhancedocs.com/security/api-keys
+      api-key: ${{ secrets.ENHANCEDOCS_API_KEY }}
+  
+  - name: Build Docs
+    run: enhancedocs build docs
+
+  - name: Pushish Docs
+    run: enhancedocs publish
+```
+
+
+#### Option B: Run in any other environment.
+
+
 ```bash npm2yarn
-npm run enhancedocs:build
+npm install -g enhancedocs
+```
+
+```bash
+export ENHANCEDOCS_API_KEY=sk_3434...
+```
+
+```bash npm2yarn
+npm run build docs
 ```
 ```bash npm2yarn
-npm run enhancedocs:push
+npm run push
 ```
-
-Example on Github Actions with Github pages [here](https://github.com/enhancedocs/docs/blob/main/.github/workflows/deploy.yaml)
