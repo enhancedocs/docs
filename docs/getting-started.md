@@ -29,7 +29,7 @@ These keys will allow you to authenticate API requests. Learn more about [API Ke
 EnhanceDocs Search is our React Search component ready to use.
 
 ```bash npm2yarn
-npm install enhancedocs/search
+npm install enhancedocs-search
 ```
 Add where you like in your code! and replace your access token with the public key retrieved from step 3.
 ```js
