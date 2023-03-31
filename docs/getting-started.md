@@ -84,18 +84,20 @@ steps:
 
 #### Option B: Run in any other environment.
 
-
-```bash npm2yarn
+Install EnhanceDocs CLI
+```bash
 npm install -g enhancedocs
 ```
 
+Set EnhanceDocs API Key as an environment variable. Make sure to store it securely read more about [API Keys](./security/api-keys.md)
 ```bash
 export ENHANCEDOCS_API_KEY=sk_3434...
 ```
 
-```bash npm2yarn
-npm run build docs
+Build your docs. Replace `docs` with path to your documentation folder.
+```bash 
+enhancedocs build docs
 ```
-```bash npm2yarn
-npm run push
+```bash
+enhancedocs publish
 ```
