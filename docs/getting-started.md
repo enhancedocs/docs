@@ -69,7 +69,7 @@ steps:
     uses: actions/checkout@v3
 
   - name: Install EnhanceDocs CLI
-    uses: enhancedocs/enhancedocs-github-action@0.0.2
+    uses: enhancedocs/enhancedocs-github-action@0.1.0
     with:
       # More about EnhanceDocs Secret API Key: https://docs.enhancedocs.com/security/api-keys
       api-key: ${{ secrets.ENHANCEDOCS_API_KEY }}
@@ -78,7 +78,7 @@ steps:
     run: enhancedocs build docs
 
   - name: Pushish Docs
-    run: enhancedocs publish
+    run: enhancedocs push <project_id>
 ```
 
 
@@ -99,5 +99,5 @@ Build your docs. Replace `docs` with path to your documentation folder.
 enhancedocs build docs
 ```
 ```bash
-enhancedocs publish
+enhancedocs push <project_id>
 ```
