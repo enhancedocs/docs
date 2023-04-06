@@ -10,7 +10,12 @@ import 'enhancedocs-search/dist/style.css';
 export default function SearchBarWrapper(props) {
   return (
     <EnhancedSearch
-      accessToken="pk_760ed6e637a6ab987495e43916e7fc2799de0c074e2c1d86"
+      config={{
+        enhancedSearch: {
+          projectId: '642c2d009557653a6d46cdda',
+          accessToken: 'pk_c237abe4951408b069e6482ad7b4214ea7ce6901bf699dbe'
+        }
+      }}
       {...props}
     />
   );
