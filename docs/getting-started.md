@@ -31,13 +31,21 @@ EnhanceDocs Search is our React Search component ready to use.
 ```bash npm2yarn
 npm install enhancedocs-search
 ```
-Add where you like in your code! and replace your access token with the public key retrieved from step 3.
+Add where you like in your code! and replace your access token with the public key retrieved from step 3 and projectId from step 2
 ```js
 import EnhancedSearch from 'enhancedocs-search';
 
 import 'enhancedocs-search/dist/style.css';
 
-<EnhancedSearch accessToken="pk_abc123" {...props} />
+<EnhancedSearch
+  config={{
+    enhancedSearch: {
+      projectId: "abc123",
+      accessToken: "pk_abc123"
+    }
+  }}
+  {...props}
+/>
 ```
 
 #### Docusaurus Example
@@ -54,7 +62,17 @@ import EnhancedSearch from 'enhancedocs-search';
 import 'enhancedocs-search/dist/style.css';
 
 export default function SearchBarWrapper(props) {
-  return <EnhancedSearch accessToken="pk_abc123" {...props} />;
+  return (
+    <EnhancedSearch
+      config={{
+        enhancedSearch: {
+          projectId: "abc123",
+          accessToken: "pk_abc123"
+        }
+      }}
+      {...props}
+    />
+  );
 }
 ```
 
