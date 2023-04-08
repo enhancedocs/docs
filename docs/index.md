@@ -10,7 +10,9 @@ We enable communities and development teams by providing context search on docum
 
 Curious to know how it works in action? Just give a search on this site! This site is powered by EnhanceDocs Search!
 
-Not convinced by our example? Check [this other](https://enhancedocs.github.io/chroma-docs/) out from chroma open-source vector database
+Not convinced by our example? Check [this other](https://wix-incubator.github.io/obsidian/) out from obsidian the dependency injection framework for React and React Native applications.
+
+
 
 ## Our support to the open-source community
 
