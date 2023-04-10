@@ -16,9 +16,9 @@ All accounts have a total of two API keys by default.
 ### Secret
 To be used on the server-side: Must be secret and stored securely in your web or mobile app’s server-side code (such as in an environment variable or credential management system) to call EnhanceDocs APIs. Don’t expose this key on a website or embed it in a mobile application.
 
-Example: `sk_422a9c325a11f1d19c718afc792d55efe5dbf9b56408f9a3`
+Example: `sk_123ab456c7890f3b211ab1a6b0af14e8ea4284c5701ced95`
 
 ### Publishable
 On the client-side: Can be publicly-accessible in your web or mobile app’s client-side code (such as [enhancedocs-search](https://www.npmjs.com/package/enhancedocs-search)) to let the server know which documentation provide information for.
 
-Example: `pk_7a6cb5f2da2da98a2ab8b243f3c66df1495e98d223faa735`
+Example: `pk_a12345b0cd1c5951f810dba47c49261296cd6ed41cfca5cf`

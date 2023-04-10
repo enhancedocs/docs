@@ -12,8 +12,6 @@ Curious to know how it works in action? Just give a search on this site! This si
 
 Not convinced by our example? Check [this other](https://wix-incubator.github.io/obsidian/) out from obsidian the dependency injection framework for React and React Native applications.
 
-
-
 ## Our support to the open-source community
 
 Open-source is the foundation of Software as we understand it today, and without open source we ourselves wouldn't exist!
