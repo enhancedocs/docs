@@ -40,7 +40,7 @@ Run in any environment! Install the CLI and build and publish your documentation
 npm install -g enhancedocs
 ```
 
-Set EnhanceDocs API Key as an environment variable. Make sure to store it securely read more about [API Keys](../security/api-keys.md)
+Set EnhanceDocs API Key as an environment variable. Make sure to store it securely read more about [API Keys](../../security/api-keys.md)
 
 ```bash
 export ENHANCEDOCS_API_KEY=sk_123ab456c7890f3b211ab1a6b0af14e8ea4284c5701ced95

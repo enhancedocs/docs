@@ -14,5 +14,5 @@ You can see how to do it [here](../getting-started/configure-cd).
 
 ## Guides
 
-- [Integrating with Discord](./discord.md)
-- [Integrating with Slack](./slack.md)
+- [Integrating with Discord](discord.md)
+- [Integrating with Slack](slack.md)

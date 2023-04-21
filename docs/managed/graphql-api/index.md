@@ -16,5 +16,5 @@ EnhanceDocs chose GraphQL for our API because it offers significantly more flexi
 The ability to define precisely the data you want—and only the data you want—is a powerful advantage over the REST API. GraphQL lets you replace multiple REST requests with a single call to fetch the data you specify.
 
 ## Overview
-- [Authentication](./authentication.md)
-- [Public schema](./public-schema.md)
+- [Authentication](authentication.md)
+- [Public schema](public-schema.md)

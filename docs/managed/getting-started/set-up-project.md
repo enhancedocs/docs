@@ -29,4 +29,4 @@ Once your project is created, you can get your credentials to start using the **
   - Public key: `pk_a12345b0cd1c5951f810dba47c49261296cd6ed41cfca5cf`
   - Private key: `sk_123ab456c7890f3b211ab1a6b0af14e8ea4284c5701ced95`
 
-These keys will allow you to authenticate API requests. Learn more about [API Keys security](../security/api-keys.md)
+These keys will allow you to authenticate API requests. Learn more about [API Keys security](../../security/api-keys.md)

@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Authentication
 
-The EnhanceDocs GraphQL API uses [API keys](../security/api-keys.md) to authenticate requests. You can view and manage your API keys in your [EnhanceDocs account](https://app.enhancedocs.com/settings/api-keys).
+The EnhanceDocs GraphQL API uses [API keys](../../security/api-keys.md) to authenticate requests. You can view and manage your API keys in your [EnhanceDocs account](https://app.enhancedocs.com/settings/api-keys).
 
 Get an API Key from your EnhanceDocs account settings page, [API Keys](https://app.enhancedocs.com/settings/api-keys)
 
