@@ -4,8 +4,6 @@ sidebar_position: 4
 
 # Integrating with Quadrant
 
-# Integrating EnhanceDocs with Quadrant
-
 Quadrant integration provides an efficient and scalable solution for managing vector databases within EnhanceDocs. By using Quadrant, you can improve performance, especially with large data sets, making it the preferred option for production environments.
 
 To enable Quadrant integration, you need to provide the `QDRANT_URL` and `QDRANT_API_KEY` as environment variables when running EnhanceDocs Server. Make sure you have a Quadrant server set up and running before proceeding with the integration.
