@@ -2,28 +2,41 @@
 sidebar_position: 1
 ---
 
-# Introduction to EnhanceDocs
+# Introduction
 
-EnhanceDocs is the open-source AI-powered search engine for your documentation.
+Welcome to the *EnhanceDocs Documentation*, a comprehensive guide for utilizing **EnhanceDocs**, 
+an [Open-source](https://en.wikipedia.org/wiki/Open-source_software) AI-powered search engine specifically designed for 
+your documentation.
 
-We enable communities and development teams by providing context search on documentation!
+### Integrations
 
-Curious to know how it works in action? Just give a search on this site! This site is powered by EnhanceDocs Search!
+- [React and Docusaurus Search Sites](./integrations/docusaurus)
+- [EnhanceDocs on Your Discord Community Server](./integrations/discord.md)
+- [EnhanceDocs on Your Slack Workspace](./integrations/slack)
 
-Not convinced by our example? Check [this other](https://wix-incubator.github.io/obsidian/) out from obsidian the dependency injection framework for React and React Native applications.
+## Who is EnhanceDocs for?
 
+EnhanceDocs is a versatile tool that caters to a diverse range of users. Here are some of the key groups that can 
+benefit from EnhanceDocs:
 
-## Features
+### Teams of Developers
 
-- Product documentation integrated search.
-  - Live demo (this site)
-  - [Source code](https://github.com/enhancedocs/enhancedocs-search)
-  - [Example source code](https://github.com/enhancedocs/docs)
-- Discord Conversational integration
-  - [Live demo](https://discord.com/invite/AUDa3KZavw)
-  - [Setup guide](./managed/integrations/discord)
-- Slack Conversational integration
-    - [Setup guide](./managed/integrations/slack)
+Developers working in teams often have to manage extensive documentation for various projects. EnhanceDocs helps 
+streamline this process by providing an efficient and user-friendly search engine that allows developers to quickly find 
+relevant information, minimize errors, and improve collaboration.
+
+### Open Source Communities
+
+Open source communities thrive on collaboration and sharing of knowledge. EnhanceDocs empowers these communities 
+to easily navigate and extract valuable information from their documentation, fostering a more productive and supportive 
+environment for contributors and maintainers alike.
+
+### Companies
+
+EnhanceDocs alleviates this problem by providing a natural language approach to searching documentation, making it 
+easier for employees to find the information they need. By reducing the reliance on subject matter experts for 
+information retrieval, EnhanceDocs allows companies to save time, improve efficiency, and ensure that their valuable 
+documentation is fully utilized.
 
 ## Getting started
 
@@ -36,6 +49,14 @@ For both cases simply [sign up](https://app.enhancedocs.com/sign-up), we take ca
 ### EnhanceDocs Self-hosted
 
 Alternatively you can run EnhanceDocs Server on your own. Following the [Getting started](./category/getting-started) guide.
+
+## Source Code and Licence
+
+- **EnhanceDocs Server** source code is available on [github](https://github.com/enhancedocs/enhancedocs). **EnhanceDocs Server** is published under the [GNU Affero General Public License v3.0](https://github.com/enhancedocs/enhancedocs/blob/main/LICENSE)
+- **EnhanceDocs CLI (Command Line Interface)** source code is available on [github](https://github.com/enhancedocs/cli). **EnhanceDocs CLI** is published under the [Apache-2.0 license](https://github.com/enhancedocs/cli/blob/main/LICENSE)
+- **EnhanceDocs Search** source code is available on [github](https://github.com/enhancedocs/enhancedocs-search). **EnhanceDocs Search** is published under the [Apache-2.0 license](https://github.com/enhancedocs/enhancedocs-search/blob/main/LICENSE)
+- **EnhanceDocs Documentation** source code is available on [github](https://github.com/enhancedocs/docs). **EnhanceDocs Documentation** is published under the [Apache-2.0 license](https://github.com/enhancedocs/docs/blob/main/LICENSE)
+
 
 ## Additional Resources
 

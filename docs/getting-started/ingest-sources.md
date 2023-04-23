@@ -11,7 +11,7 @@ In this page, we will use EnhanceDocs Docs site as the data source for illustrat
 ## Downloading EnhanceDocs Docs
 
 ```bash
-git@github.com:enhancedocs/docs.git && cd docs
+git clone git@github.com:enhancedocs/docs.git && cd docs
 ```
 
 ## Configuring local environment
