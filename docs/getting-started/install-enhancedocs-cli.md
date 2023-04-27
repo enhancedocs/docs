@@ -4,16 +4,16 @@ sidebar_position: 2
 
 # Install EnhanceDocs CLI
 
-The EnhanceDocs CLI, `enhancedocs`, is a fully functional JavaScript and Node.js +14.x Command Line Interface for interacting with EnhanceDocs Server deployments. 
+The EnhanceDocs CLI, `enhancedocs`, is a fully functional Python +3.x Command Line Interface for interacting with EnhanceDocs Server deployments. 
 You can use the EnhanceDocs CLI ingest new data sources, or test queries.
 
 ## Download an install EnhanceDocs CLI
 
 You can install and configure EnhanceDocs using this command:
 
-### Requirements
-- [Node.js v14+ LTS](https://nodejs.org/)
+## Requirements
+- [Python 3.11.2](https://www.python.org/downloads/)
 
-```bash npm2yarn
-npm install -g enhancedocs
+```bash
+pip install -U enhancedocs
 ```
