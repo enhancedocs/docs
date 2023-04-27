@@ -31,7 +31,7 @@ jobs:
         with:
           repository: enhancedocs/enhancedocs-search
           path: enhancedocs-search
-      - uses: enhancedocs/setup-enhancedocs@v0.1.2
+      - uses: enhancedocs/setup-enhancedocs@v0.1.3
         with:
           api-key: ${{ secrets.ENHANCEDOCS_API_KEY }}
       - name: Build EnhanceDocs
