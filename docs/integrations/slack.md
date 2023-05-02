@@ -15,7 +15,7 @@ To enable Slack integration with EnhanceDocs Server, follow these steps:
   ...
   "integrations": {
     ...
-    "discord": true
+    "slack": true
   }
 }
 ```
