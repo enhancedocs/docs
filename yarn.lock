@@ -3638,6 +3638,13 @@ enhanced-resolve@^5.10.0:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
 
+enhancedocs-chat@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/enhancedocs-chat/-/enhancedocs-chat-0.0.3.tgz#1c6b7d7a8ed3b58fd9dbdf753e7b87df7ff96dff"
+  integrity sha512-fie5GgLmN5Qh4H/ShPwsPGXTb5HhYCgxwJ9maHJRHUz/VapF3FDyqTbiypHWXvZF8Zs6WNVbsRXqWsXRKNCXFQ==
+  dependencies:
+    react-markdown "^8.0.7"
+
 enhancedocs-search@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/enhancedocs-search/-/enhancedocs-search-0.2.0.tgz#54df7f3901139618ac3c1381864ae88a6619ff4e"
@@ -6442,6 +6449,27 @@ react-markdown@^8.0.6:
   version "8.0.6"
   resolved "https://registry.yarnpkg.com/react-markdown/-/react-markdown-8.0.6.tgz#3e939018f8bfce800ffdf22cf50aba3cdded7ad1"
   integrity sha512-KgPWsYgHuftdx510wwIzpwf+5js/iHqBR+fzxefv8Khk3mFbnioF1bmL2idHN3ler0LMQmICKeDrWnZrX9mtbQ==
+  dependencies:
+    "@types/hast" "^2.0.0"
+    "@types/prop-types" "^15.0.0"
+    "@types/unist" "^2.0.0"
+    comma-separated-tokens "^2.0.0"
+    hast-util-whitespace "^2.0.0"
+    prop-types "^15.0.0"
+    property-information "^6.0.0"
+    react-is "^18.0.0"
+    remark-parse "^10.0.0"
+    remark-rehype "^10.0.0"
+    space-separated-tokens "^2.0.0"
+    style-to-object "^0.4.0"
+    unified "^10.0.0"
+    unist-util-visit "^4.0.0"
+    vfile "^5.0.0"
+
+react-markdown@^8.0.7:
+  version "8.0.7"
+  resolved "https://registry.yarnpkg.com/react-markdown/-/react-markdown-8.0.7.tgz#c8dbd1b9ba5f1c5e7e5f2a44de465a3caafdf89b"
+  integrity sha512-bvWbzG4MtOU62XqBx3Xx+zB2raaFFsq4mYiAzfjXJMEz2sixgeAfraA3tvzULF02ZdOMUOKTBFFaZJDDrq+BJQ==
   dependencies:
     "@types/hast" "^2.0.0"
     "@types/prop-types" "^15.0.0"
