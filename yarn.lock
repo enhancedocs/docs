@@ -3638,10 +3638,10 @@ enhanced-resolve@^5.10.0:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
 
-enhancedocs-chat@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/enhancedocs-chat/-/enhancedocs-chat-0.0.6.tgz#eed08a3e0e878d6018e03cc8b93cbc635b890715"
-  integrity sha512-3W2u9JrlIlJ5zL7nng01R+ZXLJAR+F/jv32zIBmP58geeu500YsrzxESeL1qIjrrD3DBjZ/en8c41wAvsAiK8w==
+enhancedocs-chat@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/enhancedocs-chat/-/enhancedocs-chat-0.0.8.tgz#936e84e2dd6100a0742f7a87fdd1b8c1741d7b94"
+  integrity sha512-R++Fp0QWn5HvGEMRggma5fwuBvJBjGF8EcciNXcWb/qaLGexIvS2GI9uEbKKvBOHtd0OQlNS1Ecms1j0Isecuw==
   dependencies:
     react-markdown "^8.0.7"
 
