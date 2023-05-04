@@ -6,7 +6,7 @@ import ss from './assets/slack_ss.png';
 
 # Integrating with Slack
 
-To enable Slack integration with EnhanceDocs Server, follow these steps:
+To enable EnhanceDocs Server with integration for Slack, follow these steps:
 
 1. Update the `config.json` file by adding the following key-value pair within the `integrations` object:
 
@@ -20,9 +20,9 @@ To enable Slack integration with EnhanceDocs Server, follow these steps:
 }
 ```
 
-2. Provide the `SLACK_BOT_TOKEN` and `SLACK_SIGNING_SECRET` as environment variables in the `docker run` command. To do this, you need to create a Slack bot, subscribe to the `app_mention` event, and enable the required scopes/permissions.
+2. Provide the `SLACK_BOT_TOKEN` and `SLACK_SIGNING_SECRET` as environment variables in the `docker run` command. To do this, you need to create a bot for slack, subscribe to the `app_mention` event, and enable the required scopes/permissions.
 
-## Creating a Slack Bot
+## Creating a Bot for Slack
 
 1. Go to the [Slack API portal](https://api.slack.com/apps) and sign in with your Slack account.
 2. Click on the "Create New App" button.
@@ -49,7 +49,7 @@ To enable Slack integration with EnhanceDocs Server, follow these steps:
 2. Authorize the app.
 3. After installation, you will see the `SLACK_BOT_TOKEN` under "OAuth Tokens for Your Workspace". Copy the token for later use.
 
-## Running EnhanceDocs Server with Slack Integration
+## Running EnhanceDocs Server with Integration for Slack
 
 Once you have completed the steps above, update your `docker run` command to include the `SLACK_BOT_TOKEN` and `SLACK_SIGNING_SECRET` environment variables:
 
@@ -67,7 +67,7 @@ Replace `xoxb-your_slack_bot_token` with the bot token you obtained from the Sla
 
 ## Summary
 
-By following these steps, you can successfully enable Slack integration for EnhanceDocs Server, allowing you to access the AI-powered search engine within your Slack workspace.
+By following these steps, you can successfully enable EnhanceDocs Server integration for Slack, allowing you to access the AI-powered search engine within your Slack workspace.
 
 <div>
   <img src={ss} alt="EnhanceDocs Adding to Existing Project" width="100%" style={{ borderRadius: 8 }} />
