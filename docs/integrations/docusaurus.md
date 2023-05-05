@@ -2,13 +2,15 @@
 sidebar_position: 1
 ---
 
-import ss from './assets/docusaurus_ss.png';
+import docusaurus_ss from './assets/docusaurus_ss.png';
+import docusaurus_cc from './assets/docusaurus_cc.png';
 
 # Integrating with Docusaurus
 
-*EnhanceDocs Search* is an open-source search component designed for `React` projects, which can be easily integrated into your Docusaurus site.
+*EnhanceDocs Search* and *EnhanceDocs Chat* are an open-source search and chat components designed for `React` projects,
+which can be easily integrated into your Docusaurus site.
 
-## Installation
+## Search Installation
 
 To add `EnhanceDocs Search` to your project, execute the following command:
 
@@ -56,5 +58,68 @@ With these changes, your Docusaurus site will now use the AI-powered search engi
 Enjoy the benefits of an AI-powered search engine for your Docusaurus documentation site! 🚀🚀
 
 <div>
-  <img src={ss} alt="EnhanceDocs Adding to Existing Project" width="100%" style={{ borderRadius: 8 }} />
+  <img src={docusaurus_ss} alt="EnhanceDocs Adding to Existing Project" width="100%" style={{ borderRadius: 8 }} />
+</div>
+
+## Chat Installation
+
+To add `EnhanceDocs Chat` to your project, execute the following command:
+
+```bash npm2yarn
+npm install enhancedocs-chat
+```
+
+## Adding the Chat Component
+
+You can use the same SearchBarWrapper `src/theme/SearchBar.js` to add the Chat component in your Docusaurus site.
+You can combine the Search and Chat on the same file! 🚀🚀
+
+```js
+// src/theme/SearchBar.js
+
+import React from 'react';
+import EnhancedChat from 'enhancedocs-chat';
+
+import 'enhancedocs-chat/dist/style.css';
+
+export default function SearchBarWrapper(props) {
+  return (
+    <EnhancedChat
+      config={{
+        apiBaseURL: "your_api_base_url",
+        accessToken: "your_app_access_token",
+      }}
+      {...props}
+    />
+  );
+}
+
+// OR combine both!
+
+export default function SearchBarWrapper(props) {
+  return (
+    <>
+      <EnhancedSearch
+        config={{
+          enhancedSearch: {
+            apiBaseURL: "your_api_base_url",
+            accessToken: "your_app_access_token",
+          }
+        }}
+        {...props}
+      />
+      <EnhancedChat
+        config={{
+          apiBaseURL: "your_api_base_url",
+          accessToken: "your_app_access_token",
+        }}
+        {...props}
+      />
+    </>
+  );
+}
+```
+
+<div>
+  <img src={docusaurus_cc} alt="EnhanceDocs Adding to Existing Project" width="100%" style={{ borderRadius: 8 }} />
 </div>

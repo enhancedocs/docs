@@ -70,3 +70,36 @@ Now you can start using your AI-powered search engine for your documentation ðŸš
 <div align="center" style={{ margin: '24px 0' }}>
   <img src={enhancedocsAddingExistingProjectUrl} alt="EnhanceDocs Adding to Existing Project" width="800" style={{ borderRadius: 16 }} />
 </div>
+
+## Adding the Chat Component
+
+`EnhanceDocs Chat` is an open-source chat component ready to use for your `React` projects.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat-square&logo=github&logoColor=white)](https://github.com/enhancedocs/enhancedocs-chat)
+[![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/package/enhancedocs-chat)
+[![Downloads](https://img.shields.io/npm/dm/enhancedocs-chat.svg)](https://www.npmjs.com/package/enhancedocs-chat)
+
+```bash npm2yarn
+npm install enhancedocs-chat
+```
+
+```js
+// src/theme/SearchBar.js
+
+import React from 'react';
+import EnhancedChat from 'enhancedocs-chat';
+
+import 'enhancedocs-chat/dist/style.css';
+
+export default function SearchBarWrapper(props) {
+  return (
+    <EnhancedChat
+      config={{
+        projectId: "1234a5678b98126bfdbdc6a6",
+        accessToken: "pk_a12345b0cd1c5951f810dba47c49261296cd6ed41cfca5cf",
+      }}
+      {...props}
+    />
+  );
+}
+```

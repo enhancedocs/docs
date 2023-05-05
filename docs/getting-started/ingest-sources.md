@@ -7,7 +7,6 @@ sidebar_position: 3
 In order to be able to ask questions to the EnhanceDocs Server we need to ingest the source where EnhanceDocs will gather knowledge from.
 In this page, we will use EnhanceDocs Docs site as the data source for illustration purpose but feel feed to feed any data that you consider relevant, your docs, code, etc.
 
-
 ## Downloading EnhanceDocs Docs
 
 ```bash
