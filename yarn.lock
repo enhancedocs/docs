@@ -3638,17 +3638,17 @@ enhanced-resolve@^5.10.0:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
 
-enhancedocs-chat@^0.0.12:
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/enhancedocs-chat/-/enhancedocs-chat-0.0.12.tgz#a5ac77669ef4d9a27368cce11282878d8a319166"
-  integrity sha512-kQUrkqAJBB/ZTh1CFZBUFdv1lHCUWajI4IN3hWptJKB/FKC1T7qxQi/RF9h7OL2c28MWZAUbjtp6AXdu3P5+Ag==
+enhancedocs-chat@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/enhancedocs-chat/-/enhancedocs-chat-0.1.0.tgz#79ad9b69937076b4f344b658f1e5c5226deb2deb"
+  integrity sha512-VhCeEDfVnnqe9KsJOipsUjrRXanNf+HdkEqFnmIZ1kpvMRpOxg7niuuC9+MXSzzg7VSxR9KRFi4bTJDneREkQQ==
   dependencies:
     react-markdown "^8.0.7"
 
-enhancedocs-search@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/enhancedocs-search/-/enhancedocs-search-0.2.0.tgz#54df7f3901139618ac3c1381864ae88a6619ff4e"
-  integrity sha512-TaCJNq3EpR009r9O5J4wOc14PuJgBz71E5ek+M0dBHwLFziB3ybGRTsZ9zgxSdBQcK/8aKtTcfor/tT4eg8Fmw==
+enhancedocs-search@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/enhancedocs-search/-/enhancedocs-search-0.2.1.tgz#d1b7cdbe0bc32ae6ab6f40d8646bc2f708e67e08"
+  integrity sha512-7axoO7gTbj8T+i8udHPFrv+Q/P7T/9rtJwcqLBOWOQ1pp9eH1Djt4zqTAkWxtUBFYV9CxA21NxBggbSeZpr+bw==
   dependencies:
     react-markdown "^8.0.6"
     react-modal "^3.16.1"
