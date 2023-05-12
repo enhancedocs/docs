@@ -8,7 +8,11 @@ import enhancedocsAddingExistingProjectUrl from './assets/enhancedocs-adding-exi
 
 # Add to an Existing Project
 
-`EnhanceDocs Search` is an open-source search component ready to use for your `React` projects.
+You can integrate `EnhanceDocs Search` and `EnhanceDocs Chat` in your project easily.
+
+EnhanceDocs components are an open-source **search** and **chat** components ready to use for your `React` projects.
+
+## Search
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat-square&logo=github&logoColor=white)](https://github.com/enhancedocs/enhancedocs-search)
 [![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/package/enhancedocs-search)
@@ -37,7 +41,7 @@ import 'enhancedocs-search/dist/style.css';
 />
 ```
 
-## Docusaurus Example
+### Docusaurus Example using the Search
 
 Configure [Docusaurus](https://docusaurus.io/) theme to use your own search.
 See official documentation [here](https://docusaurus.io/docs/search#using-your-own-search).
@@ -71,9 +75,7 @@ Now you can start using your AI-powered search engine for your documentation ðŸš
   <img src={enhancedocsAddingExistingProjectUrl} alt="EnhanceDocs Adding to Existing Project" width="800" style={{ borderRadius: 16 }} />
 </div>
 
-## Adding the Chat Component
-
-`EnhanceDocs Chat` is an open-source chat component ready to use for your `React` projects.
+## Chat
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat-square&logo=github&logoColor=white)](https://github.com/enhancedocs/enhancedocs-chat)
 [![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/package/enhancedocs-chat)
@@ -84,22 +86,43 @@ npm install enhancedocs-chat
 ```
 
 ```js
-// src/theme/SearchBar.js
-
-import React from 'react';
 import EnhancedChat from 'enhancedocs-chat';
 
 import 'enhancedocs-chat/dist/style.css';
 
-export default function SearchBarWrapper(props) {
+<EnhancedChat
+  config={{
+    projectId: "1234a5678b98126bfdbdc6a6",
+    accessToken: "pk_a12345b0cd1c5951f810dba47c49261296cd6ed41cfca5cf"
+  }}
+  {...props}
+/>
+```
+
+### Docusaurus Example using the Chat
+
+Add the Chat component by extending the Root theme:
+
+```js
+// src/theme/Root.js
+
+import EnhancedChat from 'enhancedocs-chat';
+
+import 'enhancedocs-chat/dist/style.css';
+
+// Default implementation, that you can customize
+export default function Root({ children }) {
   return (
-    <EnhancedChat
-      config={{
-        projectId: "1234a5678b98126bfdbdc6a6",
-        accessToken: "pk_a12345b0cd1c5951f810dba47c49261296cd6ed41cfca5cf",
-      }}
-      {...props}
-    />
+    <>
+      {children}
+      <EnhancedChat
+        config={{
+          projectId: '1234a5678b98126bfdbdc6a6',
+          accessToken: 'pk_a12345b0cd1c5951f810dba47c49261296cd6ed41cfca5cf'
+        }}
+        {...props}
+      />
+    </>
   );
 }
 ```
