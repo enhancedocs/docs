@@ -3645,10 +3645,10 @@ enhancedocs-chat@^1.1.0:
   dependencies:
     react-markdown "^8.0.7"
 
-enhancedocs-search@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/enhancedocs-search/-/enhancedocs-search-0.2.1.tgz#d1b7cdbe0bc32ae6ab6f40d8646bc2f708e67e08"
-  integrity sha512-7axoO7gTbj8T+i8udHPFrv+Q/P7T/9rtJwcqLBOWOQ1pp9eH1Djt4zqTAkWxtUBFYV9CxA21NxBggbSeZpr+bw==
+enhancedocs-search@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/enhancedocs-search/-/enhancedocs-search-1.0.0.tgz#b55d48f5df860af9831cd29a93b78a34bc1a22d7"
+  integrity sha512-y9/zzcy7W7dLfuzJvJLpgawmop9n06hMnzF6VreyxY7ZH80WmIaPOdmBxLwp3OpOQ95deqz4XCnUaNQ2OdQz5Q==
   dependencies:
     react-markdown "^8.0.6"
     react-modal "^3.16.1"
