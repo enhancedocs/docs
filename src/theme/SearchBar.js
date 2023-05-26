@@ -11,8 +11,8 @@ export default function SearchBarWrapper(props) {
   return (
     <EnhancedSearch
       config={{
-        projectId: '646a4e6158de6ee4ab3076cd',
-        accessToken: 'pk_919329ca3f52aeae4ba58aa1021f4a63eba7454d54ca86c7'
+        projectId: '642c2d009557653a6d46cdda',
+        accessToken: 'pk_c237abe4951408b069e6482ad7b4214ea7ce6901bf699dbe'
       }}
       {...props}
     />
