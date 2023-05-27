@@ -3638,11 +3638,12 @@ enhanced-resolve@^5.10.0:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
 
-enhancedocs-chat@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/enhancedocs-chat/-/enhancedocs-chat-1.1.1.tgz#4984a79028955c299934fded9d54f9c40fc4dfc9"
-  integrity sha512-NLnZDClu4AskjZMutmmcz92uDReBlwZj81vLipj+fqRZQaRZBBIDDMkeVWzhpDZTaCB3Uxe5JYoE1k1iMR4o8g==
+enhancedocs-chat@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/enhancedocs-chat/-/enhancedocs-chat-1.1.2.tgz#a88c3294287efb4fb19ff7739f04562a77d8a53d"
+  integrity sha512-qTpLaZAn+TpOo5jZ+8+Tb+/g9y/Zskelg0itn+wMdlCY77BIGbRnp5IXrRRA/HagzYYM734lk8SlS30+N8Avgg==
   dependencies:
+    mixpanel-browser "^2.47.0"
     react-markdown "^8.0.7"
 
 enhancedocs-search@^1.0.0:
@@ -5474,6 +5475,11 @@ minimist@^1.2.0, minimist@^1.2.5:
   version "1.2.8"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
+
+mixpanel-browser@^2.47.0:
+  version "2.47.0"
+  resolved "https://registry.yarnpkg.com/mixpanel-browser/-/mixpanel-browser-2.47.0.tgz#4e7fd3bb660c6f63443efbd169d1cd327db71ed4"
+  integrity sha512-Ldrva0fRBEIFWmEibBQO1PulfpJVF3pf28Guk09lDirDaSQqqU/xs9zQLwN2rL5VwVtsP1aD3JaCgaa98EjojQ==
 
 mri@^1.1.0:
   version "1.2.0"
