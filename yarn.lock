@@ -3638,18 +3638,18 @@ enhanced-resolve@^5.10.0:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
 
-enhancedocs-chat@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/enhancedocs-chat/-/enhancedocs-chat-1.1.2.tgz#a88c3294287efb4fb19ff7739f04562a77d8a53d"
-  integrity sha512-qTpLaZAn+TpOo5jZ+8+Tb+/g9y/Zskelg0itn+wMdlCY77BIGbRnp5IXrRRA/HagzYYM734lk8SlS30+N8Avgg==
+enhancedocs-chat@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/enhancedocs-chat/-/enhancedocs-chat-1.1.3.tgz#339f0b0229654773f286f89a265697db86ea84af"
+  integrity sha512-QK3o71VhylaD7RxU/7MjimIWOkYqUT1U0j5ka6L/1HHtwB5kux7l1hRqdW1eaDOU8pDbZivT6rd2k5AEpnqcBQ==
   dependencies:
     mixpanel-browser "^2.47.0"
     react-markdown "^8.0.7"
 
-enhancedocs-search@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/enhancedocs-search/-/enhancedocs-search-1.0.0.tgz#b55d48f5df860af9831cd29a93b78a34bc1a22d7"
-  integrity sha512-y9/zzcy7W7dLfuzJvJLpgawmop9n06hMnzF6VreyxY7ZH80WmIaPOdmBxLwp3OpOQ95deqz4XCnUaNQ2OdQz5Q==
+enhancedocs-search@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/enhancedocs-search/-/enhancedocs-search-1.0.1.tgz#2493aac67a8e88f2e2c2d9592f978e4a34185608"
+  integrity sha512-UhakIUVo+e4PzFdWz6dL5WjGjYRXFvmvYBoEcc2+s4GNLwOEwdLhL6DT18Eld2nwqkp1D7JzyRFQj3A1hhknrQ==
   dependencies:
     react-markdown "^8.0.6"
     react-modal "^3.16.1"
